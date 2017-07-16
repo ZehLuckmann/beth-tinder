@@ -4,7 +4,7 @@
 * Instale e configure o [Docker][1] no seu computador
 * Clone o repositório do projeto [Roger][2]
   ```bash
-  git clone {repositorio}
+  git clone https://github.com/ZehLuckmann/Roger.git
   ```
 * Entre na pasta do projeto
     ```bash
@@ -12,7 +12,7 @@
     ```
 * Com o Docker vocẽ irá criar uma imagem do projeto:
   ```bash
-  sudo docker build -t roger_img --file ./DockerFile.
+  sudo docker build -t roger_img --file ./DockerFile .
   ```
 * Pronto, aogra você já tem uma imagem do ambiente para começar a desenvolver
 
@@ -27,7 +27,7 @@
     ```
   * Acessa o modo interativo do container:
     ```bash
-    docker exec -it roger-desenv
+    docker exec -it roger-desenv bash
     ```
 * Agora o console está dentro do ambiente virtual do projeto, comandos linux vão funcionar pela linha de comando (ls, mkdir...)
 * Para executar a aplicação principal, digite:
@@ -35,6 +35,10 @@
   python run.py
   ```
 * Sempre que você fizer uma alteração no código, só é necessário executar o último passo
+* Para finalizar o container digite:
+  ```bash
+  sudo docker kill roger-desenv
+  ```
 
 [1]: https://www.docker.com/
-[2]: https://www.teste.com/
+[2]: https://github.com/ZehLuckmann/Roger
