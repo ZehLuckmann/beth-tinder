@@ -27,7 +27,7 @@
     ```
   * Acessa o modo interativo do container:
     ```bash
-    docker exec -it roger-desenv bash
+    sudo docker exec -it roger-desenv bash
     ```
 * Agora o console está dentro do ambiente virtual do projeto, comandos linux vão funcionar pela linha de comando (ls, mkdir...)
 * Para executar a aplicação principal, digite:
