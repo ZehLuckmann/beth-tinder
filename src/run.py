@@ -1,16 +1,17 @@
 import logging
-import logging.config
-import roger
+from roger import Roger
 
 def load_configs(environment):
     global logger
     if environment == 'desenv':
-        logging.config.fileConfig('./configs/log.conf')
-        logger = logging.getLogger('roger_app')
+        logging.basicConfig(filename='section.log',level=logging.DEBUG)
+
 
 def main():
     load_configs('desenv')
-    roger.start()
+
+    roger_instance = Roger()
+    roger_instance.start()
 
 if __name__ == '__main__':
     main()

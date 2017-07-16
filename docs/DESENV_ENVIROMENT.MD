@@ -1,4 +1,4 @@
-# Configuração do ambiente de desenvolvimento
+#Configuração do ambiente de desenvolvimento
 
 ### Instalação
 * Instale e configure o [Docker][1] no seu computador
@@ -16,7 +16,7 @@
   ```
 * Pronto, aogra você já tem uma imagem do ambiente para começar a desenvolver
 
-### Iniciando desenvolvimento
+###Iniciando desenvolvimento
 
 * Todos os códigos fontes se encontram na pasta __src__
 * Os códigos podem ser editados com o editor de sua prefêrencia (vim, atom, sublime...)
@@ -38,7 +38,8 @@
 * Para finalizar o container digite:
   ```bash
   sudo docker kill roger-desenv
+  sudo docker rm roger-desenv
   ```
-
+  
 [1]: https://www.docker.com/
 [2]: https://github.com/ZehLuckmann/Roger

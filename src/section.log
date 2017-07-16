@@ -1,0 +1,16 @@
+DEBUG:root:Inicia processos da IA
+DEBUG:root:Inicia treinamento da previsão de intenção
+DEBUG:root:Treinamento da previsão de intenção finalizado
+DEBUG:root:Inicia teste da previsão de intenção
+DEBUG:root:Teste da previsão de intenção finalizado
+INFO:root:Precisão da previsão: 0.7142857142857143
+DEBUG:root:Prevê a frase "Eu amo você seu idiota"
+DEBUG:root:Inicia processos da IA
+DEBUG:root:Inicia treinamento da previsão de intenção
+DEBUG:root:Treinamento da previsão de intenção finalizado
+DEBUG:root:Inicia teste da previsão de intenção
+DEBUG:root:Teste da previsão de intenção finalizado
+INFO:root:Precisão da previsão: 0.7142857142857143
+DEBUG:root:Prevê a frase "Eu amo"
+DEBUG:root:Prevê a frase "ruim amo"
+DEBUG:root:Prevê a frase "odeio amo ruim"
