@@ -1,0 +1,36 @@
+############################################################
+# Dockerfile para ralizar o build da aplicação Roger
+# Baseda em uma distro do ubuntu
+# Execute para realizar o build:
+#   sudo docker build -t roger_img --file ./DockerFile .
+#
+# Para realizar os testes no ambiente de desenvolvimento execute
+# os seguintes comando dentro da pasta /src do projeto:
+#   sudo docker run -d -it --name roger-desenv -v `pwd`:/src roger_img
+#   docker exec -it roger-desenv
+#
+# Para finalizar o container execute:
+#   docker kill roger-desenv bash
+############################################################
+
+# Define a imagem base
+FROM python
+
+#Autor/Maintainer
+MAINTAINER José Henrique Luckmann
+
+# Copy the application folder inside the container
+ADD /src /src
+
+# Get pip to download and install requirements:
+RUN pip install -r /src/requirements.txt
+
+CMD python -m textblob.download_corpora
+# Expose ports
+EXPOSE 80
+
+# Set the default directory where CMD will execute
+WORKDIR /src
+
+#Inicia a aplicação
+#CMD python run.py
