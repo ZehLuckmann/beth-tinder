@@ -7,7 +7,7 @@ Roger é uma inteligência artificial que está sendo desenvolvida com o objetiv
 O objetivo da IA é conversar com pessoas no site de relacionamento [Tinder][2] e conseguir interagir com elas até o momento em que ele conseguir o número de telefone, sem que a pessoa perceba que está conversando com um computador!
 
 ### Progresso
-#### Versão: 0.2.1.1.2.3.0
+#### Versão: 0.2.1.1.2.0.3.0
 
 0. Estrutura do projeto
     1. Estrutura de pastas
