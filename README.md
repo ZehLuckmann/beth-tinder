@@ -10,16 +10,16 @@ O objetivo da IA é conversar com pessoas no site de relacionamento [Tinder][2] 
 #### Versão: 0.2.1.1.2.3.0
 
 0. Estrutura do projeto
-  1. Estrutura de pastas
-  2. Configuração Docker
-  3. {WIP}
+    1. Estrutura de pastas
+    2. Configuração Docker
+    3. {WIP}
 1. Criar o algoritmo para realizar o processo de interpretação
-  1. Rotina para interpretar a intenção da frase (positiva/negativa)
-  2. {WIP}
+    1. Rotina para interpretar a intenção da frase (positiva/negativa)
+    2. {WIP}
 2. Desenvolvimento da API para comunicar com o Tinder
-  1. {WIP}
+    1. {WIP}
 3. Desenvolver serviço para minerar dados e aprimorar os resultados
-  1. {WIP}
+    1. {WIP}
 
 Deseja contribuir? Veja como configurar o [Ambiente de Desenvolvimento][3]
 
