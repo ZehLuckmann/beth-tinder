@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from roger.intention import Intention
+import roger.export_conversations
+
 import roger.manage_data
 import logging
 
@@ -21,9 +23,9 @@ class Roger(object):
         intention.train(train_set)
         intention.test(test_set)
 
-        self.user_interface(intention.return_intention)
+        self.user_interface_request_phrase(intention.return_intention)
 
-    def user_interface(self, method):
+    def user_interface_request_phrase(self, method):
         print('')
         while True:
             print('')
@@ -41,11 +43,14 @@ class Roger(object):
         while opt != '0':
             print('Qual função você deseja acessar?')
             print('1 - Prever intenção da frase')
+            print('2 - Exportar conversas')
             print('0 - Sair')
             opt = input('Digite a opção: ')
 
             if opt == '1':
                 self.predict_intention()
+            if opt == '2':
+                roger.export_conversations.start()
             elif opt != '0':
                 print('Opção inválida')
 

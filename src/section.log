@@ -14,3 +14,174 @@ INFO:root:Precisão da previsão: 0.7142857142857143
 DEBUG:root:Prevê a frase "Eu amo"
 DEBUG:root:Prevê a frase "ruim amo"
 DEBUG:root:Prevê a frase "odeio amo ruim"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.facebook.com
+DEBUG:urllib3.connectionpool:https://www.facebook.com:443 "GET /v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&display=touch&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&default_audience=friends&return_scopes=true&auth_type=rerequest&client_id=464891386855067&ret=login&sdk=ios&logger_id=30F06532-A1B9-4B10-BB28-B29956C71AB1&ext=1470840777&hash=AeZqkIcf-NEW6vBd HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): m.facebook.com
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "GET /v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&default_audience=friends&return_scopes=true&auth_type=rerequest&client_id=464891386855067&sdk=ios HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "GET /login.php?skip_api_login=1&api_key=464891386855067&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv2.6%2Fdialog%2Foauth%3Fredirect_uri%3Dfb464891386855067%253A%252F%252Fauthorize%252F%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%26scope%3Duser_birthday%252Cuser_photos%252Cuser_education_history%252Cemail%252Cuser_relationship_details%252Cuser_friends%252Cuser_work_history%252Cuser_likes%26response_type%3Dtoken%252Csigned_request%26default_audience%3Dfriends%26return_scopes%3Dtrue%26auth_type%3Drerequest%26client_id%3D464891386855067%26ret%3Dlogin%26sdk%3Dios%26logger_id%3D30F06532-A1B9-4B10-BB28-B29956C71AB1&cancel_url=fb464891386855067%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%23_%3D_&display=touch&locale=pt_BR&logger_id=30F06532-A1B9-4B10-BB28-B29956C71AB1&_rdr HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.08714550054599925
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11130312450873142
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4744628014140249
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.facebook.com
+DEBUG:urllib3.connectionpool:https://www.facebook.com:443 "GET /v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&display=touch&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&default_audience=friends&return_scopes=true&auth_type=rerequest&client_id=464891386855067&ret=login&sdk=ios&logger_id=30F06532-A1B9-4B10-BB28-B29956C71AB1&ext=1470840777&hash=AeZqkIcf-NEW6vBd HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): m.facebook.com
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "GET /v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&default_audience=friends&return_scopes=true&auth_type=rerequest&client_id=464891386855067&sdk=ios HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "GET /login.php?skip_api_login=1&api_key=464891386855067&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv2.6%2Fdialog%2Foauth%3Fredirect_uri%3Dfb464891386855067%253A%252F%252Fauthorize%252F%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%26scope%3Duser_birthday%252Cuser_photos%252Cuser_education_history%252Cemail%252Cuser_relationship_details%252Cuser_friends%252Cuser_work_history%252Cuser_likes%26response_type%3Dtoken%252Csigned_request%26default_audience%3Dfriends%26return_scopes%3Dtrue%26auth_type%3Drerequest%26client_id%3D464891386855067%26ret%3Dlogin%26sdk%3Dios%26logger_id%3D30F06532-A1B9-4B10-BB28-B29956C71AB1&cancel_url=fb464891386855067%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%23_%3D_&display=touch&locale=pt_BR&logger_id=30F06532-A1B9-4B10-BB28-B29956C71AB1&_rdr HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.08714550054599925
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11130312450873142
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.47447234185271614
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "POST /login.php?api_key=464891386855067&auth_token=252130aceeed4f86be76cf277b93cda4&skip_api_login=1&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv2.6%2Fdialog%2Foauth%3Fredirect_uri%3Dfb464891386855067%253A%252F%252Fauthorize%252F%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%26scope%3Duser_birthday%252Cuser_photos%252Cuser_education_history%252Cemail%252Cuser_relationship_details%252Cuser_friends%252Cuser_work_history%252Cuser_likes%26response_type%3Dtoken%252Csigned_request%26default_audience%3Dfriends%26return_scopes%3Dtrue%26auth_type%3Drerequest%26client_id%3D464891386855067%26ret%3Dlogin%26sdk%3Dios%26logger_id%3D30F06532-A1B9-4B10-BB28-B29956C71AB1&refsrc=https%3A%2F%2Fm.facebook.com%2Flogin.php&app_id=464891386855067&cancel=fb464891386855067%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522challenge%2522%253A%2522IUUkEUqIGud332lfu%25252BMJhxL4Wlc%25253D%2522%252C%25220_auth_logger_id%2522%253A%252230F06532-A1B9-4B10-BB28-B29956C71AB1%2522%252C%2522com.facebook.sdk_client_state%2522%253Atrue%252C%25223_method%2522%253A%2522sfvc_auth%2522%257D%23_%3D_&lwv=100&locale2=pt_BR&refid=9 HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "GET /v2.6/dialog/oauth?redirect_uri=fb464891386855067%3A%2F%2Fauthorize%2F&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D&scope=user_birthday%2Cuser_photos%2Cuser_education_history%2Cemail%2Cuser_relationship_details%2Cuser_friends%2Cuser_work_history%2Cuser_likes&response_type=token%2Csigned_request&default_audience=friends&return_scopes=true&auth_type=rerequest&client_id=464891386855067&ret=login&sdk=ios&logger_id=30F06532-A1B9-4B10-BB28-B29956C71AB1&refsrc=https%3A%2F%2Fm.facebook.com%2Flogin.php&locale2=pt_BR&refid=9&_rdr HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://m.facebook.com:443 "POST /v2.6/dialog/oauth/confirm HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.gotinder.com
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "POST /auth HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "POST /updates HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56d18882773f7d1358891767 HTTP/1.1" 200 819
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56e4b19fc2d2f6d83e3567eb HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56b7341d6069d9276ba8ea1b HTTP/1.1" 200 2859
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /profile HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/570c2467ba78cdeebcc9aa4b HTTP/1.1" 200 859
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56927497deb5f7910cd33b13 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5720e3fe118b6d292ce678d3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5735e051e001ebe411f34026 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5741e1c6c5dd6922155844c0 HTTP/1.1" 200 626
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/577dcc1a1ad107a72f7e83c3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/57a286074d2c65800aa63353 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/567a9606bb66e41914e6b8a2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58438a65196ba34506a4ab52 HTTP/1.1" 200 1448
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/57fc5c48a071b7f929beb0d8 HTTP/1.1" 200 752
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/576c04f3cfa81f7166a65227 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/585e4fbc2776fb980a8217b0 HTTP/1.1" 200 655
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/582617a6b13707c44435bcd7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/578ec788c50c1a9b5fb070f9 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58026e91289e96f96912708d HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/580211d9001b66e97863ac01 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5677dc7673a5705b2c07f57a HTTP/1.1" 200 511
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58317b2e0fa7a05b0bb468d4 HTTP/1.1" 200 695
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58432d42df2b539556a50f21 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/576728c1c3a112a329478f25 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58372d0b47b0284e09da4f6d HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/588161efe87cd59615c88f0e HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5872751bd45ce7f411c0b8d3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/589a65a5f72a17c2139035bb HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58a1c6c0b31e65ca1ed5c65f HTTP/1.1" 200 691
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58a5ea4f41d91bdc166d11fb HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58acc55abb1b0d5c31061e7c HTTP/1.1" 200 821
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/575dc52f5274b1a40da99ecd HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/587b1627bb705b6d4c2edba8 HTTP/1.1" 200 565
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58bf6d656b0a266a4c418c8d HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58daca84ad10315e4c788586 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58cdcf3f3d040e010c2fbe0b HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58ded8b1a54236d10b9fe073 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58dfd799c2c153d103e6ddc8 HTTP/1.1" 200 1490
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58b5ff92e62e6a725a3be4bc HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58e0187e44ce25aa33a8680d HTTP/1.1" 200 778
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/57670fb241fcc9050bc662cd HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5727f8e918e7a70f44be5eef HTTP/1.1" 200 1035
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58e578cf3d4ed4505dbced59 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58ec21c2c629f0ee557542aa HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58b23b02c7bd220f3da84eea HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/577f102a46a880df365ed275 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58ba43b368d49fbd52bedc3d HTTP/1.1" 200 985
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56b369483a196bb13d0cd3e1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/59036151c2d7177d7925dcfa HTTP/1.1" 200 1090
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58f0ec099d5526350bd2f8d3 HTTP/1.1" 200 1505
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58fc0d503ee0532560819fc2 HTTP/1.1" 200 505
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58f3c96917e9626a0b6f6957 HTTP/1.1" 200 1412
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58dc5757a3ea72346071af1e HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5907ee1746a6ac1505dada2e HTTP/1.1" 200 668
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/590f8ceddfe1814f0d8eb4e8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58f3b30d95ca1df3232d46e1 HTTP/1.1" 200 616
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58e03e3ffd80f1070ce18379 HTTP/1.1" 200 606
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58eb83967f84f4b51b29e389 HTTP/1.1" 200 515
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/58fa7f30cab19f77600dff93 HTTP/1.1" 200 546
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/591f5a9ad72df30e490494a1 HTTP/1.1" 200 775
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/592a29a1a30e80b87ce3417f HTTP/1.1" 200 617
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/591486f67470355d1ca06a0a HTTP/1.1" 200 807
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/59178129049d9d091ccfb2ba HTTP/1.1" 200 1253
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5925cbdb9325d7c138acf81f HTTP/1.1" 200 1173
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/59109546dfe1814f0d8f3c2a HTTP/1.1" 200 460
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/592e5e841481bb0c7dfd241f HTTP/1.1" 200 935
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/59338aa6d6286bbf623637a5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/593f6aae2c02948e5c6a7aae HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/591246b7dfe1814f0d902be8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5915fd26f0a1a5af6e563985 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5835ce3f4e154a4515b5b513 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/538662e7903128111950df34 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/530aa1386863bdbd7700058a HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55631f3cad87a20010f4fb9a HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5325a2a0b8831934360004cb HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55ba2015f1e4f2962d5ba0d9 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5274203da0b79c622b00314c HTTP/1.1" 200 1270
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/52bf5377b43dca9c480033b6 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55346131261dcbef2039d704 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55ba6b576c46d9947d9164b7 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/54332a69dc1cc2be066575d5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/54aaecc57d306a0d7ec5756a HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5453fcc59febb39911a6aeea HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55579eee0ae27a1d2851c66c HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/544458b2d4ac920608420008 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/52a8cba0a9f3b43668001cac HTTP/1.1" 200 1027
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/56158e0bae252c702c08390d HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/5556337ded18ca5b4823e2a6 HTTP/1.1" 200 871
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/55b30659d147f6e01c8328c0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/529a3208a5541a997a000022 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/549d38bc7bceed8e18859ff3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/562f3e00458ed833705353a3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.gotinder.com:443 "GET /user/552997398237e55229f654b7 HTTP/1.1" 200 933
