@@ -1,6 +1,4 @@
-#José Henrique
-#facebook_auth_token = 'EAAGm0PX4ZCpsBACZBzmex0b8NA13MUNHk0oD2jY6EszZAcupItZByK3SGHmlOY1dEuv4c31whYeWIttzk9Ee1ZCtZAGSojVz2VoWEKQvZCDZCkTYnu5N1lPTolrzgWRZBaecglikgphDka0LX6YTkE84tNZB3W06HzmGYssqLt6XROwptigMA1opMHmcZCU4PMQxdLs7jrWTBZCgOHvZByYpUQO7vEraxXa1VXY9ZCL7AFVBNyNgZDZD'
-#facebook_id = '100002373652794'
+
 import tinder
 import robobrowser
 import re
