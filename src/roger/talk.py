@@ -4,7 +4,7 @@ from textblob.classifiers import NaiveBayesClassifier
 from textblob import TextBlob
 import logging
 
-class Intention(object):
+class Talk(object):
     """A classe Intention é responsável por retornar a intenção
     de uma frase, positiva ou negativa. Utilizando a classificação
     de acordo com o teorema de Bayes
@@ -43,7 +43,7 @@ class Intention(object):
         de frases e sua respectiva classificação para obter a precisão:
 
         Exemplo de entrada:
-        [('Ótima linguagem', 'positivo'),('Péssima essa linguagem', 'negativo')]
+        [('Olá', 'Oie'),('Tudo bem?', 'Tudo e você')]
         """
 
         logging.debug('Inicia teste da previsão de intenção')
@@ -51,15 +51,12 @@ class Intention(object):
         logging.debug('Teste da previsão de intenção finalizado')
         logging.info('Precisão da previsão: {}'.format(self.__accuracy))
 
-    def return_intention(self, phrase):
+    def response(self, phrase):
         """
-        Retorna a intenção da frase de acordo com o classificador criado
-
-        Exemplo de entrada:
-        'Eu estou com muita raiva'
-        Exemplo de saída:
-        'A frase "Eu estou com muita raiva" é de caráter: negativo'
+        Retorna a rasposta da frase de acordo com o classificador criado
         """
         logging.debug('Analisa a frase "{}"'.format(phrase))
         blob = TextBlob(phrase,classifier=self.__cl)
-        return 'A frase "{}" é de caráter: {}'.format(phrase, blob.classify())
+        result = blob.classify()
+        logging.debug('Resposta: "{}"'.format(result))
+        return result
