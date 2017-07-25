@@ -5,13 +5,9 @@ from textblob import TextBlob
 import logging
 
 class Talk(object):
-    """A classe Intention é responsável por retornar a intenção
-    de uma frase, positiva ou negativa. Utilizando a classificação
+    """A classe Talk é responsável por retornar a resposta
+    de uma frase, baseando nas informações exportadas. Utilizando a classificação
     de acordo com o teorema de Bayes
-
-    Exemplos:
-    Entrada: Eu te adoro -> Saída: positivo
-    Entrada: Eu te odeio -> Saída: negativo
     """
     def __init__(self):
         """
@@ -28,9 +24,6 @@ class Talk(object):
         """
         Treina com a lista de informações formada de frases e suas
         respectivas classificações:
-
-        Exemplo de entrada:
-        [('Ótima pergunta','positivo'),('A festa está péssima','negativo')]
         """
 
         logging.debug('Inicia treinamento da previsão de intenção')
@@ -41,9 +34,6 @@ class Talk(object):
         """
         Realiza testes com a lista de informações formada
         de frases e sua respectiva classificação para obter a precisão:
-
-        Exemplo de entrada:
-        [('Olá', 'Oie'),('Tudo bem?', 'Tudo e você')]
         """
 
         logging.debug('Inicia teste da previsão de intenção')
