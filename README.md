@@ -1,6 +1,6 @@
 # Roger
 
-Roger é uma inteligência artificial que está sendo desenvolvida com o objetivo de ser psota a prova no [Teste de Turing][1]
+Roger é uma inteligência artificial que está sendo desenvolvida com o objetivo de ser posta a prova no [Teste de Turing][1]
 
 >O teste de Turing    funciona da  seguinte forma:  um  interrogador  (humano) fará perguntas a duas entidades   ocultas;  uma delas  é um  humano e  outra é  um  computador.  A comunicação entre o interrogador e as entidades é feita de modo indirecto,  pelo teclado, por  exemplo. O interrogador tentará,  através do “diálogo“  realizado entre ele e as entidades, decidir qual dos dois é o humano. O computador será programado para se  passar por humano,  e o humano  responderá de  forma a confirmar  a sua  condição.  Se  no final do  teste  o interrogador  não  conseguir  distinguir quem é o   humano, então conclui-se que o computador pode pensar, segundo o teste de Turing.
 
